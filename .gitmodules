@@ -4,3 +4,12 @@
 [submodule "gqcnn_dependencies/autolab_core"]
 	path = gqcnn_dependencies/autolab_core
 	url = https://github.com/BerkeleyAutomation/autolab_core
+[submodule "gqcnn_dependencies/gqcnn"]
+	path = gqcnn_dependencies/gqcnn
+	url = https://github.com/BerkeleyAutomation/gqcnn
+[submodule "gqcnn_dependencies/perception"]
+	path = gqcnn_dependencies/perception
+	url = https://github.com/BerkeleyAutomation/perception
+[submodule "gqcnn_dependencies/visualization"]
+	path = gqcnn_dependencies/visualization
+	url = https://github.com/BerkeleyAutomation/visualization
