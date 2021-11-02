@@ -1,0 +1,6 @@
+[submodule "deep_grasp_demo"]
+	path = deep_grasp_demo
+	url = https://github.com/jeoseo/deep_grasp_demo
+[submodule "gqcnn_dependencies/autolab_core"]
+	path = gqcnn_dependencies/autolab_core
+	url = https://github.com/BerkeleyAutomation/autolab_core
