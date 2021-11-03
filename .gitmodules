@@ -13,3 +13,15 @@
 [submodule "gqcnn_dependencies/visualization"]
 	path = gqcnn_dependencies/visualization
 	url = https://github.com/BerkeleyAutomation/visualization
+[submodule "moveit_task_constructor"]
+	path = moveit_task_constructor
+	url = https://github.com/Avdbergnmf/moveit_task_constructor
+[submodule "roboticsgroup_gazebo_plugins"]
+	path = roboticsgroup_gazebo_plugins
+	url = https://github.com/roboticsgroup/roboticsgroup_gazebo_plugins.git
+[submodule "xarm_ros"]
+	path = xarm_ros
+	url = https://github.com/jeoseo/xarm_ros
+[submodule "permobil_arm"]
+	path = permobil_arm
+	url = https://github.com/jeoseo/permobil_arm.git
