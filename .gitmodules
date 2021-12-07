@@ -25,3 +25,6 @@
 [submodule "permobil_arm"]
 	path = permobil_arm
 	url = https://github.com/jeoseo/permobil_arm.git
+[submodule "gpd"]
+	path = gpd
+	url = https://github.com/atenpas/gpd.git
