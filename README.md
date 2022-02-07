@@ -9,6 +9,7 @@ git clone  --recurse-submodules https://github.com/jeoseo/permobil_arm_meta.git 
 Follow the instructions on https://github.com/jeoseo/deep_grasp_demo/tree/gpd_no_dexnet, and other submodules potentially.
 Then build
 ```
+rosdep install --from-paths src --ignore-src -r -y
 catkin build
 ```
 
