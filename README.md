@@ -46,10 +46,3 @@ Then build (back to ws_permobil)
 rosdep install --from-paths src --ignore-src -r -y
 catkin build
 ```
-
-Launch files are scattered throughtout the packages, so here's a listi of some important ones:
-
-Xarm7 in gazebo with a table
-```
-roslaunch xarm_gazebo xarm7_beside_table.launch
-```
