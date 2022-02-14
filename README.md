@@ -10,6 +10,7 @@ Follow the instructions on https://github.com/jeoseo/deep_grasp_demo/tree/gpd_no
 Then build
 ```
 rosdep install --from-paths src --ignore-src -r -y
+sudo apt-get install ros-melodic-moveit-full
 catkin build
 ```
 
