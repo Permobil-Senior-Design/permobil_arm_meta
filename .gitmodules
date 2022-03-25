@@ -28,3 +28,6 @@
 [submodule "gpd"]
 	path = gpd
 	url = https://github.com/atenpas/gpd.git
+[submodule "moveit"]
+	path = moveit
+	url = https://github.com/Permobil-Senior-Design/moveit.git
