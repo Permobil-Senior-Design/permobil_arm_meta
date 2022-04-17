@@ -50,12 +50,18 @@ catkin build
 Calibration:
 roslaunch d435i_xarm_setup d435i_xarm_auto_calib.launch robot_dof:=7 robot_ip:=192.168.1.203 marker_size:=.125 marker_id:=39
 
-real demo
-
+real gpd demo:
+```
 roslaunch xarm7_gripper_moveit_config realMove_exec.launch robot_ip:=192.168.1.203
 
-rosrun tf static_transform_publisher 0.0322023424469 0.0343318434351 -0.0210167210488 -0.00225498533906 -0.00993543411089 -0.669211594746 0.743002048212   link_eef camera_depth_optical_frame 1000
+rosrun tf static_transform_publisher .05 .03 .03 .017 .0007 -.725 .688   link_eef camera_depth_optical_frame 1000
 
 roslaunch realsense2_camera rs_camera.launch enable_pointcloud:=true
 
 roslaunch permobil_arm gpd_demo.launch
+```
+
+space mouse demo:
+```
+roslaunch permobil_arm master_teleop_demo_real.launch 
+```
