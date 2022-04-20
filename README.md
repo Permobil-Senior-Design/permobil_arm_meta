@@ -54,9 +54,7 @@ real gpd demo:
 ```
 roslaunch xarm7_gripper_moveit_config realMove_exec.launch robot_ip:=192.168.1.203
 
-rosrun tf static_transform_publisher .05 .03 .03 .017 .0007 -.725 .688   link_eef camera_depth_optical_frame 1000
-
-roslaunch realsense2_camera rs_camera.launch enable_pointcloud:=true
+roslaunch permobil_arm rs.launch
 
 roslaunch permobil_arm gpd_demo.launch
 ```
