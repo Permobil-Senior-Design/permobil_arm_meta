@@ -1,18 +1,7 @@
 [submodule "deep_grasp_demo"]
 	path = deep_grasp_demo
 	url = https://github.com/jeoseo/deep_grasp_demo
-[submodule "gqcnn_dependencies/autolab_core"]
-	path = gqcnn_dependencies/autolab_core
-	url = https://github.com/BerkeleyAutomation/autolab_core
-[submodule "gqcnn_dependencies/gqcnn"]
-	path = gqcnn_dependencies/gqcnn
-	url = https://github.com/BerkeleyAutomation/gqcnn
-[submodule "gqcnn_dependencies/perception"]
-	path = gqcnn_dependencies/perception
-	url = https://github.com/BerkeleyAutomation/perception
-[submodule "gqcnn_dependencies/visualization"]
-	path = gqcnn_dependencies/visualization
-	url = https://github.com/BerkeleyAutomation/visualization
+	branch=gpd_no_dexnet
 [submodule "moveit_task_constructor"]
 	path = moveit_task_constructor
 	url = https://github.com/Avdbergnmf/moveit_task_constructor
@@ -25,9 +14,8 @@
 [submodule "permobil_arm"]
 	path = permobil_arm
 	url = https://github.com/jeoseo/permobil_arm.git
-[submodule "gpd"]
-	path = gpd
-	url = https://github.com/atenpas/gpd.git
+	branch=main
 [submodule "moveit"]
 	path = moveit
 	url = https://github.com/Permobil-Senior-Design/moveit.git
+	branch=melodic-devel
