@@ -1,3 +1,5 @@
+![Design Day Poster pptx](https://user-images.githubusercontent.com/50963152/169143480-a38b96d8-8d51-4b6a-8eee-ad51af2b20de.png)
+
 # Meta package for the Helping Hand senior design project.
 
 Make a workspace, then clone the repo (with submodules) to the src folder
